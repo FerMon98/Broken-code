@@ -241,7 +241,6 @@ header .mobile {
   justify-content: space-between;
   padding: 4rem 0;
   background-color: #f3f3f3;
-  width: 100%;
 }
 
 .feature {
@@ -251,10 +250,11 @@ header .mobile {
   background-color: white;
   margin-bottom: 5rem;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 .feature .image-container {
-  width: 90%;
+  max-width: 90%;
   height: 60%;
   margin: 0 auto;
 }
@@ -307,26 +307,32 @@ header .mobile {
 }
 
 #filters-section .content {
+  margin-top: 1.5%;
   padding: 0 .625rem;
   margin-bottom: 5rem;
 }
 
 #filters-section .content h2 {
   font-size: 2.25rem;
+  line-height: 1.4;
   font-weight: bold;
   color: white;
+  font-family: "Robot-Bold", sans-serif;
 }
 
 #filters-section .content h3 {
-  font-size: 1rem;
+  font-size: 1.25rem;
   line-height: 1.4;
   font-weight: 300;
+  font-family: "Roboto-Light", sans-serif;
   color: white;
 }
 
 #filters-section .images-container {
   max-width: 100%;
+  margin-bottom: 2%;
   padding: 0 1%;
+  display: flex;
 }
 
 @media only screen and (max-width: 760px) {
@@ -363,10 +369,16 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  margin: 0.5% 0;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
+  color: #4a4a4a;
+  font-size: 2rem;
+  font-family: "Palatino-Italic";
+  font-style: italic;
+  line-height: 1.1;
 }
 
 #quotes-section quote {
@@ -404,12 +416,14 @@ header .mobile {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
 }
 
 footer .content {
   color: white;
   display: flex;
-  font-size: .75rem;
+  font-family: "Roboto-Regular", sans-serif;
 }
 
 footer .copyright {
