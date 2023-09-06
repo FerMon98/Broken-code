@@ -238,8 +238,8 @@ header .mobile {
 /* Features Section */
 
 #features-section {
-  display: flex;
-  justify-content: space-between;
+  display: inline-flex;
+  justify-content: space-evenly;
   padding: 4rem 0;
   background-color: #f3f3f3;
   max-width: 100%;
@@ -252,7 +252,7 @@ header .mobile {
   background-color: white;
   margin-bottom: 5rem;
   box-sizing: border-box;
-  max-width: 45%;
+  max-width: 46%;
 }
 
 .feature .image-container {
@@ -418,14 +418,15 @@ header .mobile {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
-  height: 2rem;
-  font-size: 1.5rem;
+  height: 2.5rem;
 }
 
 footer .content {
   color: white;
   display: flex;
   font-family: "Roboto-Regular", sans-serif;
+  font-size: 2rem;
+  height: 100%;
 }
 
 footer .copyright {
